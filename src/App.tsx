@@ -13,7 +13,7 @@ function App() {
     } 
     // Detectar dispositivo Android
     else if (/android/i.test(userAgent)) {
-      window.location.href = 'https://play.google.com/store/apps/details?id=com.tuapp.ejemplo';
+      window.location.href = 'https://play.google.com/store/apps/details?id=com.somaplus.app&hl=es_NI';
       console.log("Android");
     }
   }, []);
