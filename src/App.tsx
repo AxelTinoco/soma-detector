@@ -8,7 +8,7 @@ function App() {
     console.log(userAgent, "Useragent")
 
     if (/iPad|iPhone|iPod/.test(userAgent)) {
-      window.location.href = 'https://apps.apple.com/app/id123456789';
+      window.location.href = 'https://apps.apple.com/mx/app/soma/id6466131820?l=en-GB';
       console.log("Apple");
     } 
     // Detectar dispositivo Android
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className=''>
-      <a href="http://" target="_blank" rel="noopener noreferrer">Apple</a>
+      <a href="http://" target="_blank" rel="noopener noreferrer">Soma+</a>
     </div>
   )
 }
